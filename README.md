@@ -2,7 +2,7 @@
 
 ## ひとまず作ってみよう！
 
-1. GitHubアカウントを作る [Sign up for GitHub](https://github.com/)（ウェブサイトの名前の一部になるのでいい名前を付けましょう。登録後GitHubからのメールを確認して、Verify！）
+1. GitHubアカウントを作る [Sign up for GitHub](https://github.com/) （[スライドでの解説](https://github.com/code4fukui/slide/blob/main/GitHub%E3%81%AF%E3%81%97%E3%82%99%E3%82%81%E3%81%AE%E3%81%84%E3%81%A3%E3%81%BB%E3%82%9A.pdf)、アカウント名はウェブサイト名の一部にもなるのでいい名前を付けましょう。登録後GitHubからのメールを確認して、Verify！）
 2. [このリポジトリ](https://github.com/code4sabae/website/)を右上にあるForkを押して自分のリポジトリとしてコピーする （リポジトリ＝貯蔵庫、Git上で扱う1つのプロジェクトのファイル一式を指す）
 3. 自分のリポジトリの設定(Settings、Code、Issuesの並び、「...」で隠れていることもある)を開く
 4. GitHub Pages の項目までスクロールし、Sourceを[master brunch]に変更する
@@ -25,10 +25,28 @@
 6. &lt;img src="imgfile.jpg"&gt; と、&lt;h1&gt;タイトル&lt;/h1&gt; の前の行に書く (imgfile.jpg はアップロードしたファイル名に）
 7. コミットし、しばらく待って、リロードすると表示される！
 
-もう少し詳しく？ → HTMLはじめのいっぽ  
-https://github.com/code4sabae/website/blob/master/what_is_html.md
+## プログラムを加えよう
 
-## GitHub Desktop を使って効率アップ！!!
+1. ページを開いた時、計算結果がダイアログで出るようにするHTMLを加える
+```js
+<script type="module">
+alert(1 + 1);
+</script>
+```
+2. scriptタグの中身はJavaScriptというプログラミング言語、いろいろ計算してくれます！
+
+## サイトを育てましょう！
+
+- [HTMLはじめのいっぽ](https://github.com/code4sabae/website/blob/master/what_is_html.md)
+- [CSSはじめのいっぽ](https://github.com/code4sabae/website/blob/master/what_is_css.md)
+- [JSはじめのいっぽ](https://github.com/code4sabae/website/blob/master/what_is_js.md)
+
+## わからないこと？
+
+こちらのIssuesに分からないことをどうぞ！  
+https://github.com/code4sabae/website/issues  
+
+## GitHub Desktop を使って効率アップ!
 
 1. [GitHub Desktop](https://desktop.github.com/)をダウンロードする
 2. 自分のリポジトリの右側[clone or download]を押し、[Open in Desktop]を押す
@@ -45,19 +63,3 @@ https://github.com/code4sabae/website/blob/master/what_is_html.md
 
 github.io じゃなく、じぶんだけのドメイン（独自ドメイン）を設定したい方はこちら  
 https://github.com/code4sabae/website/blob/master/what_is_domain.md  
-
-## サイトを育てましょう！
-
-HTMLはじめのいっぽ  
-https://github.com/code4sabae/website/blob/master/what_is_html.md  
-
-CSSはじめのいっぽ  
-https://github.com/code4sabae/website/blob/master/what_is_css.md  
-
-JSはじめのいっぽ  
-https://github.com/code4sabae/website/blob/master/what_is_js.md  
-
-## わからないこと？
-
-こちらのIssuesに分からないことをどうぞ！  
-https://github.com/code4sabae/website/issues  
