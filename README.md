@@ -1,6 +1,11 @@
 # GitHub Pages で、じぶんのウェブサイトをつくろう！
 
 ## ひとまず作ってみよう！
+## hoge
+# hoge2
+# test3
+# test4
+
 
 1. GitHubアカウントを作る [Sign up for GitHub](https://github.com/) （[スライドでの解説](https://github.com/code4fukui/slide/blob/main/GitHub%E3%81%AF%E3%81%97%E3%82%99%E3%82%81%E3%81%AE%E3%81%84%E3%81%A3%E3%81%BB%E3%82%9A.pdf)、アカウント名はウェブサイト名の一部にもなるのでいい名前を付けましょう。登録後GitHubからのメールを確認して、Verify！）
 2. [このリポジトリ](https://github.com/code4sabae/website/)を右上にあるForkを押して自分のリポジトリとしてコピーする （リポジトリ＝貯蔵庫、Git上で扱う1つのプロジェクトのファイル一式を指す）
@@ -43,8 +48,8 @@ alert(1 + 1);
 
 ## わからないこと？
 
-こちらのIssuesに分からないことをどうぞ！  
-https://github.com/code4sabae/website/issues  
+こちらのIssuesに分からないことをどうぞ！
+https://github.com/code4sabae/website/issues
 
 ## GitHub Desktop を使って効率アップ!
 
@@ -59,7 +64,7 @@ https://github.com/code4sabae/website/issues
 
 ## ドメイン名だけでアクセスできるようにしよう
 
-[Settings]で、リポジトリ名を (自分のGitHubアカウント名).github.io に変更すると、そのアドレスでアクセスできます！短くてかっこいいですね！  
+[Settings]で、リポジトリ名を (自分のGitHubアカウント名).github.io に変更すると、そのアドレスでアクセスできます！短くてかっこいいですね！
 
-github.io じゃなく、じぶんだけのドメイン（独自ドメイン）を設定したい方はこちら  
-https://github.com/code4sabae/website/blob/master/what_is_domain.md  
+github.io じゃなく、じぶんだけのドメイン（独自ドメイン）を設定したい方はこちら
+https://github.com/code4sabae/website/blob/master/what_is_domain.md
